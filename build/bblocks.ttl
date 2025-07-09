@@ -11,16 +11,16 @@
         dcat:Dataset,
         bblocks:Schema ;
     rdfs:label "Custom Feature" ;
-    dct:abstract "This examples shows a simple customisation for OGC API Feature schemas" ;
+    dct:abstract "This examples shows a simple customisation for OGC API Feature schemas"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/bblock/ogc.bbr.template.myFeature" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/generateddocs/markdown/bbr/template/myFeature/index.md" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/generateddocs/json-full/bbr/template/myFeature/index.json" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/generateddocs/json-full/bbr/template/myFeature/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/generateddocs/markdown/bbr/template/myFeature/index.md" ] ;
     dct:hasVersion "1.0" ;
-    dct:modified "2025-01-08"^^xsd:date ;
+    dct:modified "2025-07-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
     skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/> ;
     dcat:keyword "examples",
@@ -42,16 +42,16 @@
         dcat:Dataset,
         bblocks:Schema ;
     rdfs:label "My Schema" ;
-    dct:abstract "An example schema defining the set of properties of any type of object." ;
+    dct:abstract "An example schema defining the set of properties of any type of object."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/generateddocs/json-full/bbr/template/mySchema/index.json" ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/bblock/ogc.bbr.template.mySchema" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/generateddocs/json-full/bbr/template/mySchema/index.json" ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/generateddocs/markdown/bbr/template/mySchema/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2025-01-08"^^xsd:date ;
+    dct:modified "2025-07-09"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/> ;
     dcat:keyword "templates" ;
@@ -68,27 +68,27 @@
     rdfs:label "Building Blocks - My OGC Building Blocks repository" ;
     dct:abstract """This is an example text for the abstract. It should be short and to the point.
 A "Tell me more" link will appear if there is an additional description with a longer explanation.
-""" ;
+"""^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:description """The description can be longer. Both **the abstract** *and the description* support Markdown,
 including [links](https://google.es).
-""" ;
+"""^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     skos:prefLabel "Building Blocks - My OGC Building Blocks repository" ;
     bblocks:hasValidationReport <https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/tests/report.html> ;
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2025-01-08T21:00:07.497276"^^xsd:dateTime ;
-    prov:startedAtTime "2025-01-08T21:00:07.430791"^^xsd:dateTime ;
+    prov:endedAtTime "2025-07-09T11:53:20.756450"^^xsd:dateTime ;
+    prov:startedAtTime "2025-07-09T11:53:20.690164"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/yaml" ;
             rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
         [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:dc6707c014a11476c40f6534913a75da647c8cff" ;
+            dct:hasVersion "git:14a1585fa96fb8ecbcb04343f9ad5844d76cf297" ;
             rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/bblocks-licensing/undefined/build/register.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.55" ;
+            dct:hasVersion "0.4" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
 

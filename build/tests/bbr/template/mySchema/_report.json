@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.template.mySchema - My Schema",
   "bblockName": "My Schema",
   "bblockId": "ogc.bbr.template.mySchema",
-  "generated": "2025-01-08T21:00:07.261469+00:00",
+  "generated": "2025-07-09T11:53:19.769294+00:00",
   "result": true,
   "items": [
     {
@@ -83,12 +83,12 @@
               "focusNodes": {
                 "<https://www.ogc.org/rules/template/#testValues>": {
                   "nodes": [
-                    "_:N77a8e195e334423bb86cd2f0e3e18183"
+                    "_:Nc2407837a92643e0b59ca8f91246ece3"
                   ]
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N77a8e195e334423bb86cd2f0e3e18183\n"
+              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:Nc2407837a92643e0b59ca8f91246ece3\n"
             }
           ]
         }
